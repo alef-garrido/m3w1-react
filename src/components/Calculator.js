@@ -1,4 +1,6 @@
 import React from 'react';
+import Display from './Display';
+import calculate from '../logic/calculate';
 
 /* eslint-disable-next-line react/prefer-stateless-function  */
 class Calculator extends React.Component {
@@ -32,7 +34,7 @@ class Calculator extends React.Component {
 
     return (
       <div className="calculator--body">
-        <input className="calculator--display" placeholder="0" />
+        <Display />
         <div className="calculator--keypad">{calcButtons}</div>
       </div>
     );
