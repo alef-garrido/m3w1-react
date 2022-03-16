@@ -12,11 +12,12 @@ class Calculator extends React.Component {
       operation: null,
     };
 
-    this.handleClick = this.handleChange.bind(this); // keypad click event
+    this.handleClick = this.handleClick.bind(this); // keypad click event
   }
 
-  handleClick() {
-    console.log(this.state);
+  handleClick(e) {
+    const computedResult = calculate(this.state, e.target.name);
+    console.log(this.setState(computedResult));
   }
 
   render() {
