@@ -13,11 +13,17 @@ class Calculator extends React.Component {
     };
 
     this.handleClick = this.handleClick.bind(this); // keypad click event
+    this.handleChange = this.handleChange.bind(this); // display change of value
   }
 
   handleClick(e) {
     const computedResult = calculate(this.state, e.target.name);
     console.log(this.setState(computedResult));
+  }
+
+  handleChange(e) {
+    const inputValue = calculate(this.state, e.target.value);
+    this.setState(inputValue);
   }
 
   render() {
@@ -35,8 +41,13 @@ class Calculator extends React.Component {
 
     return (
       <div className="calculator--body">
-        <Display />
-        <div className="calculator--keypad">{calcButtons}</div>
+        <Display
+          inputData={this.state}
+          changeHandler={this.handleChange}
+        />
+        <div className="calculator--keypad">
+          {calcButtons}
+        </div>
       </div>
     );
   }
