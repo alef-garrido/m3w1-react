@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](...) Not deployed yet
+[Live Demo Link](https://alef-garrido.github.io/m3w1-react/) NOT DEPLOYED YET! :D
 
 
 ## Getting Started
@@ -75,7 +75,7 @@ This makes the app ready to be deployed!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/alef-garrido/m3w1-react/issues).
 
 ## Show your support
 

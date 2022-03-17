@@ -1,7 +1,6 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 
-/* eslint-disable-next-line react/prefer-stateless-function  */
 class Display extends React.Component {
   static setDisplay(obj) {
     if (obj.next) return obj.next;
