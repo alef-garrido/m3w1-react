@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-const Quote = () => {
+function Quote() {
   const [quote, setQuote] = useState({
-    text: "loading, please wait...",
-    author: "",
+    text: 'loading, please wait...',
+    author: '',
   });
 
   useEffect(() => {
-    fetch("https://random-math-quote-api.herokuapp.com/")
+    fetch('https://random-math-quote-api.herokuapp.com/')
       .then((response) => response.json())
       .then((data) => {
         setQuote({
@@ -23,6 +23,6 @@ const Quote = () => {
       <p>{quote.author}</p>
     </div>
   );
-};
+}
 
 export default Quote;

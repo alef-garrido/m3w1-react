@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+function Home() {
   const paragraph = `
   Math magicians is a demo site that uses REACT.js 
   to render a Single-Page-Application. We used Math 
