@@ -1,5 +1,5 @@
 import Calculator from '../Calculator';
-import './calcPage.css';
+import '../styles/calcPage.css';
 
 function CalcPage() {
   return (
