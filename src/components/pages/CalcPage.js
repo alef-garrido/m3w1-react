@@ -1,12 +1,13 @@
 import Calculator from '../Calculator';
+import './calcPage.css';
 
 function CalcPage() {
   return (
-    <section>
+    <section className="calculator--container">
       <div className="calculator--title">
         <h1>Let&apos;s do some Math!</h1>
       </div>
-      <div className="calculator--body">
+      <div>
         <Calculator />
       </div>
     </section>

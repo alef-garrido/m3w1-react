@@ -1,0 +1,11 @@
+.calculator--container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.calculator--title {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
