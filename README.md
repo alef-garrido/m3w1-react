@@ -4,7 +4,7 @@
 
 > Math themed REACT SPA.
 
-![screenshot](./src/compnents/styles/assets/app-screencast.gif)
+![](./src/app-screencast.gif)
 
 ## Built With
 
@@ -16,7 +16,6 @@
 
 [Live Demo Link](https://alef-garrido.github.io/m3w1-react/) NOT DEPLOYED YET! :D
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -26,16 +25,19 @@ To get a local copy up and running follow these simple example steps.
 Node.js
 
 ## Setup
+
 ### Install
 
 You can run it on your local machine by cloning the project.
-  - Click on the green "Code" button
-  - Copy the link
-  - On your Terminal run `git clone $<LINK>` replacing `$<LINK>` with the link you just copied.
-  - cd to the folder where you cloned the repo
-  - Now you can run the commnads below as needed. 
+
+- Click on the green "Code" button
+- Copy the link
+- On your Terminal run `git clone $<LINK>` replacing `$<LINK>` with the link you just copied.
+- cd to the folder where you cloned the repo
+- Now you can run the commnads below as needed.
 
 ### Usage
+
 ### 1. `npm install`
 
 Install all the dependencies needed for the project to work correctly.
@@ -48,13 +50,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-
 ### Run tests
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.
 
 ### Deployment
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -63,8 +66,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 This makes the app ready to be deployed!
 
-
 ## Authors
+
 👤 Alef Garrido
 
 - GitHub: [lef-garrido](https://github.com/alef-garrido)
