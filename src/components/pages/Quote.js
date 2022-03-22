@@ -15,7 +15,7 @@ function Quote() {
           author: data.author,
         });
       });
-  });
+  }, []);
 
   return (
     <div className="quote--container">

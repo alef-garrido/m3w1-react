@@ -1,6 +1,6 @@
-import Calculator from "../Calculator";
+import Calculator from '../Calculator';
 
-const CalcPage = () => {
+function CalcPage() {
   return (
     <section>
       <div className="calculator--title">
@@ -11,6 +11,6 @@ const CalcPage = () => {
       </div>
     </section>
   );
-};
+}
 
 export default CalcPage;
