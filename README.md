@@ -84,6 +84,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments 🤝
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Random Quotes API by [arcanemutterings](https://github.com/arcanemutterings/random-quote-generator-api)
 - Microverse's Curriculum project
 - Thanks to all code reviewers
 
