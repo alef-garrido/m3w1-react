@@ -4,7 +4,7 @@
 
 > Math themed REACT SPA.
 
-![screenshot](./src/compnents/styles/assets/app-screencast.gif)
+![alt-text](./src/app-screencast.gif)
 
 ## Built With
 
@@ -12,7 +12,7 @@
 - REACT
 - Create-React-App
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://alef-garrido.github.io/m3w1-react/) NOT DEPLOYED YET! :D
 
