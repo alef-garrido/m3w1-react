@@ -9,19 +9,22 @@
 
 .calculator--display {
   box-sizing: border-box;
-  padding: 0 1rem;
+  padding: 0 2rem;
   width: 90%;
   height: 5rem;
   text-align: right;
   border: none;
-  background-color: #8d8d91;
   font-size: 3em;
-  font-family: 'Times New Roman', Times, serif;
-  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: black;
+  background: #e4e2e2;
+  box-shadow: 19px 11px 45px rgba(0, 0, 0, 0.25), -23px -23px 45px #fff, inset -31px -31px 43px rgba(255, 255, 255, 0.6), inset 7px 4px 48px rgba(0, 0, 0, 0.16);
+  border-radius: 20px 20px 0 0;
 }
 
 .calculator--display::placeholder {
-  padding-right: 1rem;
+  padding-right: 2rem;
   color: white;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -38,7 +41,7 @@
   border: none;
   height: 5rem;
   background-color: var(--keyButtons-bck);
-  font-size: 1em;
+  font-size: 2em;
 }
 
 button[name="0"] {
@@ -50,7 +53,10 @@ button[name='x'],
 button[name='-'],
 button[name='+'],
 button[name='='] {
-  background: coral;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
 }
 
 .calculator--keypad button:hover {

@@ -23,7 +23,10 @@ export default function Navbar() {
 
   return (
     <nav className="navbar--container">
-      <h2>Math4Ever</h2>
+      <div className="navbar--logo">
+        <h2>Math4Ever</h2>
+        <div className="navbar--deco" />
+      </div>
       <ul>
         {links.map((link) => (
           <li key={link.id} className="nav-item">

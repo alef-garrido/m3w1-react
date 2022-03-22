@@ -8,4 +8,7 @@
   width: 50%;
   display: grid;
   place-items: center;
+  font-family: 'Gravitas One', cursive;
+  font-size: 29px;
+  line-height: 2.5rem;
 }
