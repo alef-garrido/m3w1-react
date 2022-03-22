@@ -4,7 +4,7 @@
 
 > Math themed REACT SPA.
 
-![screenshot](./src/app-screenshot.png)
+![screenshot](./src/compnents/styles/assets/app-screencast.gif)
 
 ## Built With
 
