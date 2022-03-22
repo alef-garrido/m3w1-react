@@ -4,7 +4,7 @@
 
 > Math themed REACT SPA.
 
-![screenshot](./src/app-screenshot.png)
+![screenshot](./src/compnents/styles/assets/app-screencast.gif)
 
 ## Built With
 
@@ -84,9 +84,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments 🤝
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Random Quotes API by [arcanemutterings](https://github.com/arcanemutterings/random-quote-generator-api)
 - Microverse's Curriculum project
 - Thanks to all code reviewers
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.

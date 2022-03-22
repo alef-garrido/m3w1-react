@@ -1,0 +1,17 @@
+.quote--container {
+  padding: 8rem;
+  line-height: 1.5rem;
+}
+
+.quote--container h3 {
+  font-family: 'Gravitas One', cursive;
+  font-size: 39px;
+  line-height: 2.5rem;
+}
+
+.quote--container p {
+  margin: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 39px;
+  font-weight: 200;
+}
