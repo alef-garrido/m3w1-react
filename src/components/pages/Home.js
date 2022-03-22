@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css';
 
 function Home() {
   const paragraph = `
@@ -14,7 +15,7 @@ function Home() {
   Hope you like it!
     `;
   return (
-    <div className="home-container">
+    <div className="home--container">
       <h2>Welcome to our page</h2>
       <p>{paragraph}</p>
     </div>
