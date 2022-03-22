@@ -1,3 +1,9 @@
+:root {
+  --background: #d1d1d1;
+  --keyButtons-bck: #e0e0e0;
+  --rightButtons-bck: coral;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,4 +29,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
 }
