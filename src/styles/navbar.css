@@ -1,0 +1,31 @@
+.navbar--container {
+  place-self: baseline;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar--container > h2 {
+  font-size: 40px;
+  color: var(--color-accent);
+}
+
+.navbar--container > ul {
+  display: flex;
+  align-self: center;
+  list-style: none;
+}
+
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  margin: 0 2rem;
+}
+
+.nav-item a:focus,
+.nav-item:active {
+  color: orange;
+}
