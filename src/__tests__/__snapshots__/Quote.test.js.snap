@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders on screen 1`] = `
+<div
+  className="quote--container"
+>
+  <h3>
+    “
+    loading, please wait...
+    ”
+  </h3>
+  <p>
+    -
+    
+  </p>
+</div>
+`;
