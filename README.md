@@ -16,7 +16,8 @@
 
 ## Live Demo
 
-[Live Demo Link](https://alef-garrido.github.io/m3w1-react/) NOT DEPLOYED YET! :D
+[ Heroku Live Demo](https://m3w1-react.herokuapp.com/)
+[ Netlify Live Demo](https://aquamarine-starlight-3c7e0c.netlify.app/)
 
 ## Getting Started
 
