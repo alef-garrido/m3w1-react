@@ -1,7 +1,11 @@
-import Calculator from "../components/Calculator";
-import renderer from "reacr-test-renderer";
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Calculator from '../components/Calculator';
 
-it("renders correctly", () => {
-  const tree = renderer.create(<Calculator />).toJSON();
+it('renders correctly', () =>{
+  const tree = renderer
+    .create(<Calculator />)
+    .toJSON();
   expect(tree).toMatchSnapshot();
 });
+ 
