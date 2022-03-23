@@ -17,6 +17,7 @@
 ## Live Demo
 
 [ Heroku Live Demo](https://m3w1-react.herokuapp.com/)
+[ Netlify Live Demo](https://aquamarine-starlight-3c7e0c.netlify.app/)
 
 ## Getting Started
 
